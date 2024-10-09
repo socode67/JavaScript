@@ -1,0 +1,78 @@
+# LES BOUCLES FOR ET WHILE
+
+## Exercice 1
+
+```js
+const nombreSecret = Math.floor(Math.random() * 10) + 1;
+
+let guess = 0;
+
+while (guess !== nombreSecret) {
+    guess = parseInt(prompt("Devinez le nombre secret (entre 1 et 10) :"));
+
+    if (guess === nombreSecret) {
+        console.log("Félicitations ! Vous avez deviné le nombre secret !");
+    } else if (guess < nombreSecret) {
+        console.log("Le nombre que vous avez saisi est trop petit. Essayez encore !");
+    } else {
+        console.log("Le nombre que vous avez saisi est trop grand. Essayez encore !");
+    }
+}
+```
+
+## Exercice 2
+
+```js
+const nombre = parseInt(prompt("Entrez un nombre pour générer sa table de multiplication :"));
+
+console.log(`Table de multiplication pour ${nombre}:`);
+
+for (let i = 1; i <= 10; i++) {
+    console.log(`${nombre} x ${i} = ${nombre * i}`);
+}
+```
+
+## Exercice 3
+
+```js
+let valeurInitiale = parseInt(prompt("Veuillez saisir une valeur initiale pour le compte à rebours :"));
+
+for (let i = valeurInitiale; i >= 0; i--) {
+    console.log(`Compte à rebours : ${i}`);
+    
+    if (i === 0) {
+        let recommencer = prompt("Le compte à rebours est terminé. Voulez-vous recommencer ? (oui/non)");
+        
+        while (recommencer.toLowerCase() !== "oui" && recommencer.toLowerCase() !== "non") {
+            recommencer = prompt("Veuillez répondre par 'oui' ou 'non'. Souhaitez-vous recommencer ?");
+        }
+        
+        if (recommencer.toLowerCase() === "oui") {
+            valeurInitiale = parseInt(prompt("Veuillez saisir une nouvelle valeur initiale pour le compte à rebours :"));
+            i = valeurInitiale;
+        } else {
+            console.log("Fin du programme. Merci !");
+        }
+    }
+}
+```
+
+## Exercice 4
+
+```js
+const debut = parseInt(prompt("Entrez la valeur de départ :"));
+const fin = parseInt(prompt("Entrez la valeur de fin :"));
+let somme = 0;
+
+if (debut <= fin) {
+    for (let i = debut; i <= fin; i++) {
+        if (i % 2 === 0) {
+            somme += i;
+        }
+    }
+    console.log(`La somme des nombres pairs entre ${debut} et ${fin} est : ${somme}`);
+} else {
+    console.log("La valeur de départ doit être inférieure ou égale à la valeur de fin.");
+}
+
+```
