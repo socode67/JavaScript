@@ -4,8 +4,6 @@
 
 Demandez à l'utilisateur de saisir un nombre. À l'aide d'une condition ternaire, vérifiez si le nombre saisi est pair ou impair.
 
-Affichez le resultat sous la forme : "num1 + num2 = resultat"
-
 ## Exercice 2
 
 Créez un programme qui demande à l'utilisateur de choisir une opération à effectuer parmi : `Addition`, `Soustraction`, `Multiplication`, `Division`, `Modulo`, ou `Exposant`.

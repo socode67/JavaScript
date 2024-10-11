@@ -29,9 +29,9 @@ Créez une application de compte à rebours.
 2. Utilisez une boucle for pour décrémenter la valeur initiale du compte à rebours jusqu'à atteindre zéro
 3. À chaque itération, affichez la valeur actuelle du compte à rebours.
 4. Lorsque le compte à rebours atteint zéro, démarrez une boucle while.
-5. Dans la boucle while, demandez à l'utilisateur s'il souhaite recommencer le compte à rebours.
-6. Si la réponse est "oui", redemandez une nouvelle valeur initiale et répétez le processus.
-7. Si la réponse est "non", affichez un message de fin et sortez de la boucle.
+5. Dans la boucle while, demandez à l'utilisateur s'il souhaite recommencer le compte à rebours tant qu'il ne répond pas par oui ou par non.
+7. Si la réponse est "oui", redemandez une nouvelle valeur initiale et répétez le processus.
+8. Si la réponse est "non", affichez un message de fin et sortez de la boucle.
 
 ## Exercice 4
 
