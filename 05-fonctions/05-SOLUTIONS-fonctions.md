@@ -1,6 +1,68 @@
 # Les fonctions
 
-## Convertisseur de Température
+Voici les solutions aux exercices proposés :
+
+### Exercice 1 : Créer une fonction simple
+
+```js
+function direBonjour() {
+    console.log("Bonjour, comment ça va ?");
+}
+
+direBonjour();
+```
+
+### Exercice 2 : Utiliser des paramètres
+
+```js
+function saluerPersonne(prenom, nom) {
+    console.log(`Bonjour ${prenom} ${nom}, comment ça va ?`);
+}
+
+saluerPersonne("Jean", "Dupont");
+```
+
+### Exercice 3 : Calcul d'âge
+
+```js
+function calculerAge(anneeNaissance) {
+    const anneeActuelle = 2024;
+    const age = anneeActuelle - anneeNaissance;
+    console.log(`Vous avez ${age} ans.`);
+    return age;
+}
+
+calculerAge(1990);
+```
+
+### Exercice 4 : Utiliser une expression de fonction
+
+```js
+const carre = function(nombre) {
+    return nombre * nombre;
+}
+
+console.log(carre(5)); // Affiche 25
+```
+
+### Exercice 5 : Les fonctions fléchées
+
+```js
+const carre = (nombre) => nombre * nombre;
+
+console.log(carre(5)); // Affiche 25
+```
+
+### Exercice 6 : Somme de deux nombres
+
+```js
+function addition(a, b) {
+    return a + b;
+}
+
+console.log(addition(3, 4)); // Affiche 7
+```
+## Exercice 7 : Convertisseur de Température
 
 ```js
 // Fonction pour demander à l'utilisateur de saisir une température
