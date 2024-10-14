@@ -2,7 +2,7 @@
 
 ### Exercice 1
 
-```javascript
+```js
 // Création du tableau fruits
 let fruits = ["pomme", "banane", "orange"];
 
@@ -27,7 +27,7 @@ console.log(fruits); // ["pomme", "banane", "orange"]
 
 ### Exercice 2
 
-```javascript
+```js
 // Création du tableau nombres
 let nombres = [10, 15, 20, 25, 30, 35, 40];
 
@@ -48,7 +48,7 @@ console.log(sousTableau); // [15, 20, 25]
 
 ### Exercice 3
 
-```javascript
+```js
 // Création du tableau noms
 let noms = ["Alice", "Bob", "Charlie", "David", "Eve"];
 
@@ -70,7 +70,7 @@ console.log(nomsMajuscules); // ["ALICE", "BOB", "CHARLIE", "DAVID", "EVE"]
 
 ### Exercice 4
 
-```javascript
+```js
 // Création du tableau ages
 let ages = [8, 12, 15, 17, 20, 22, 27];
 
@@ -87,7 +87,7 @@ console.log(sommeAges); // 121
 
 ### Exercice 5
 
-```javascript
+```js
 // Création du tableau scores
 let scores = [60, 85, 90, 70, 55, 95, 80];
 
