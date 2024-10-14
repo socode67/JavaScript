@@ -3,15 +3,22 @@
 ## Exercice 1 : Déstructuration d'un tableau
 Créez un tableau nommé `fruits` contenant les éléments suivants : `"pomme"`, `"banane"`, et `"orange"`. Utilisez la déstructuration pour assigner chaque fruit à une variable séparée : `fruit1`, `fruit2`, et `fruit3`. Affichez ensuite chaque variable dans la console.
 
+---
+
 ## Exercice 2 : Déstructuration d'un objet
 Créez un objet nommé `voiture` avec deux propriétés : `marque` avec la valeur `"Tesla"` et `modèle` avec la valeur `"Model 3"`. Utilisez la déstructuration pour assigner ces propriétés à des variables séparées nommées `marque` et `modèle`. Affichez ensuite ces variables dans la console.
+
+---
 
 ## Exercice 3 : Opérateur spread avec un tableau
 Créez un tableau `nombres` contenant les nombres `5`, `10`, et `15`. Utilisez l'opérateur spread pour créer un nouveau tableau nommé `nouveauxNombres` qui contient tous les éléments de `nombres`, ainsi que le nombre `20` à la fin. Affichez ensuite le nouveau tableau dans la console.
 
+---
+
 ## Exercice 4 : Opérateur spread avec un objet
 Créez un objet `ordinateur` avec deux propriétés : `marque` avec la valeur `"Apple"` et `modèle` avec la valeur `"MacBook Pro"`. Utilisez l'opérateur spread pour créer un nouvel objet `nouvelOrdinateur` qui contient toutes les propriétés de l'objet `ordinateur` et ajoutez une nouvelle propriété `année` avec la valeur `2024`. Affichez ensuite le nouvel objet dans la console.
 
+---
 
 ## Exercice 5 : Afficher une liste d'objets
 Créez un tableau d'objets représentant des **étudiants** avec les propriétés `nom`, `age`, et `note`.
